@@ -1,7 +1,10 @@
 # Semantic-Segmentation-using-UNET-architecture-on-VOC2012-dataset
 To locate the motorbike in an given image using UNET architecture
+
 Dataset: http://host.robots.ox.ac.uk/pascal/VOC/voc2012/
+
 Methodology Used: 
+
 Data Preprocessing:(segmentation.ipyb)
 1) The data consist of images with 21 segmented class but we require only single class that is, motorbike to predict.
 2) The pixel value of segmented area of motorbike is found ie., (64,128,128,255) 
